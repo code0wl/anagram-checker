@@ -1,0 +1,27 @@
+{
+  "name": "anagram-checker",
+  "version": "1.0.0",
+  "description": "A simple npm module for checking anagrams",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "watch src",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code0wl/anagram-checker.git"
+  },
+  "keywords": [
+    "anagram",
+    "npm"
+  ],
+  "author": "Oscar Lodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code0wl/anagram-checker/issues"
+  },
+  "homepage": "https://github.com/code0wl/anagram-checker#readme",
+  "devDependencies": {
+    "watch": "^1.0.2"
+  }
+}
