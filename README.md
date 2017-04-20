@@ -14,16 +14,7 @@ $ yarn add anagram-generator
 
 ### Usage
 ```ecmascript 6
-import generate from 'anagram-generator';
+const anagramChecker = require("anagram-checker");
 
-const bores = generate(
-    'bores', 3
-);
-
-const noter = generate(
-    'notes', 2
-);
-
-console.log(bores); // bores, robes, sober
-console.log(noter); // noter, toner
+new anagramChecker('neat'); // ante, neat
 ```
