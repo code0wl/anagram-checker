@@ -1,3 +1,3 @@
 const anagramGenerator = require("../src/index");
 
-new anagramGenerator('neat');
+new anagramGenerator('ram');

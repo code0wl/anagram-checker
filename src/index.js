@@ -64,7 +64,9 @@ module.exports = class AnagramGenerator {
 					})
 					.then((body) => {
 						if (body.length > 2 && this.permutations[permutation]) {
-							this.results.push(this.permutations[permutation]);
+							if (this.results.indexOf(this.permutations[permutation]) == -1) {
+								this.results.push(this.permutations[permutation]);
+							}
 							this.printResults();
 						}
 					});
@@ -75,5 +77,4 @@ module.exports = class AnagramGenerator {
 	printResults() {
 		console.info(this.results);
 	}
-
 };
