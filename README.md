@@ -18,3 +18,6 @@ const anagramChecker = require("anagram-checker");
 
 new anagramChecker('neat'); // ante, neat
 ```
+
+### Special thanks
+Special thanks to [owlbot](https://owlbot.info/api/v1/dictionary/owl) for hosting the reference dictionary
