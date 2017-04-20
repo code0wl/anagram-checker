@@ -1,5 +1,5 @@
 {
-  "name": "anagram-checker",
+  "name": "node-anagram-checker",
   "version": "1.0.0",
   "description": "A simple npm module for checking anagrams",
   "main": "src/index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/code0wl/anagram-checker.git"
+    "url": "git+https://github.com/code0wl/anagram-checker"
   },
   "keywords": [
     "anagram",
