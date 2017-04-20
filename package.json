@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon './src/index.js'",
+    "demo": "nodemon './demo/demo.js'",
     "test": "npm run test"
   },
   "repository": {
@@ -24,5 +25,8 @@
   "devDependencies": {
     "nodemon": "1.11.0",
     "yarn": "^0.22.0"
+  },
+  "dependencies": {
+    "node-fetch": "^1.6.3"
   }
 }

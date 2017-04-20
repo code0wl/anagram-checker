@@ -1,24 +1,26 @@
-# A module to generate anagrams
+# A module for generating anagrams
 
 ### Installation
 
-```sh
+#### npm
+```bash
 $ npm i anagram-generator -S
 ```
 
-```sh
+#### yarn
+```bash
 $ yarn add anagram-generator
 ```
 
 ### Usage
-```typescript
-import Anagramify from 'anagram-generator';
+```ecmascript 6
+import generate from 'anagram-generator';
 
-const bores = Anagramify(
+const bores = generate(
     'bores', 3
 );
 
-const noter = Anagramify(
+const noter = generate(
     'notes', 2
 );
 
